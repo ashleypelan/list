@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="listMaker">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-git2.min.js"></script> -->
+    <script type="text/javascript" src="javascripts/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <title></title>
+  </head>
+  <body>
+    <p>this is a paragrahgahgiohasfiasifafsoashf</p>
+    <div ng-controller="ListController">
+      <h1>{{rightNow | date:'fullDate'}}</h1>
+    </div>
+    <form action="/index" method="post">
+      <button type='submit'>Go to the second page here</button>
+    </form>
+  </body>
+</html>
